@@ -1,0 +1,260 @@
+2017-10-20 12:33:42,766 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:33:42,806 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:33:42,865 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:33:47,880 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:33:47,880 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:33:47,915 Reader#Run
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:33:52,963 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:33:52,963 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:33:53,007 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:33:58,057 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:33:58,057 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:33:58,145 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:34:03,178 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:34:03,178 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:34:03,232 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:34:13,322 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:34:13,342 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:34:13,447 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:34:14,432 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:34:14,433 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:34:20,477 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:34:20,477 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:34:26,511 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:34:26,511 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:34:32,562 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:34:32,574 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:39:40,925 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:39:40,967 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:39:41,045 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:39:46,026 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:39:46,026 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:39:46,051 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:40:03,573 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:40:03,660 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:40:13,786 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:40:13,787 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:40:13,865 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:40:13,944 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:40:13,945 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 12:40:13,945 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:40:15,024 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:40:15,024 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:41:57,323 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:41:57,333 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:41:57,415 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:54:02,429 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:54:03,466 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:54:03,475 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:54:09,490 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:54:09,490 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:54:21,519 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:54:21,523 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 12:54:21,526 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:54:28,104 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:54:28,144 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:54:34,169 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:54:34,169 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:57:05,097 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:57:05,107 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:57:05,151 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:57:06,365 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:57:06,365 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 12:57:06,365 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:57:50,565 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:57:55,642 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:57:55,642 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:57:55,697 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:57:56,690 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:57:56,691 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 12:58:10,046 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 12:58:10,058 HSMSPort::OnDisconnect Reconnect
+2017-10-20 12:58:10,133 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 12:58:11,125 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 12:58:11,125 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..

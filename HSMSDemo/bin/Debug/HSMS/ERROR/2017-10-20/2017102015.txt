@@ -1,0 +1,22 @@
+2017-10-20 15:01:13,229 Reader#Run
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 94
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 105
+2017-10-20 15:07:54,481 Reader#Run
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 94
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 105
+2017-10-20 15:18:19,413 HSMSPort::OnDisconnect Reconnect
+2017-10-20 15:18:20,573 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\SECSConnector.cs:行号 49
+2017-10-20 15:18:20,584 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..

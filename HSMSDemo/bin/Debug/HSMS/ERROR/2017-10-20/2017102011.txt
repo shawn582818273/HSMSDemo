@@ -1,0 +1,76 @@
+2017-10-20 11:09:49,498 套接字操作尝试一个无法连接的主机。 192.168.101.115:7000
+System.Net.Sockets.SocketException (0x80004005): 套接字操作尝试一个无法连接的主机。 192.168.101.115:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 Glorysoft.SECSwell.SECSConnector.OpenActiveConnection() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\SECSConnector.cs:行号 49
+2017-10-20 11:25:42,302 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 11:25:42,319 WriteControlMessage
+System.IO.IOException: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryWriter.Write(Byte[] buffer)
+   在 Glorysoft.SECSwell.HSMSWriter.WriteControlMessage(Int64 mSystemBytes, Byte rspcode, eControlMessage stype, Byte high, Byte low) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSWriter.cs:行号 148
+2017-10-20 11:25:42,357 SystemBytes: null, ERRCODE: WriteError, ERRDESC: Error Send Error: Socket Error..
+2017-10-20 11:25:42,357 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 11:25:42,358 HSMSPort::OnDisconnect Reconnect
+2017-10-20 11:25:42,400 Timer::StartTimer 
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 Glorysoft.SECSwell.HSMSTimer.StartTimer(eTimeout e) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSTimer.cs:行号 218
+2017-10-20 11:25:47,303 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 11:25:47,303 HSMSPort::OnDisconnect Reconnect
+2017-10-20 11:25:47,304 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 11:25:52,875 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 11:25:52,875 HSMSPort::OnDisconnect Reconnect
+2017-10-20 11:25:52,878 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 11:31:10,906 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105
+2017-10-20 11:31:23,209 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 11:31:23,209 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 11:31:29,475 HSMSPort::OnDisconnect Reconnect
+2017-10-20 11:38:48,266 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 11:38:48,330 HSMSPort::OnDisconnect Reconnect
+2017-10-20 11:38:48,468 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 Glorysoft.SECSwell.HSMSReader.ReadLength(Byte[] bs) 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 94
+   在 Glorysoft.SECSwell.HSMSReader.Run() 位置 D:\B8Module\03.SRC\B8.LineCtrol\SECSwell\Glorysoft.SECSwell\HSMSReader.cs:行号 105

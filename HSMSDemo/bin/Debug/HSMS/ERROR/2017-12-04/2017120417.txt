@@ -1,0 +1,9 @@
+2017-12-04 17:22:38,170 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 由于以前的关闭调用，套接字在那个方向已经关闭，发送或接收数据的请求没有被接受。。 ---> System.Net.Sockets.SocketException: 由于以前的关闭调用，套接字在那个方向已经关闭，发送或接收数据的请求没有被接受。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs)
+   在 HSMSDriver.HSMSReader.Run()

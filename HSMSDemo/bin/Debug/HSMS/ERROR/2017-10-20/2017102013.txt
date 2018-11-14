@@ -1,0 +1,102 @@
+2017-10-20 13:11:14,996 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 13:11:15,023 HSMSPort::OnDisconnect Reconnect
+2017-10-20 13:11:15,077 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 94
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 105
+2017-10-20 13:11:20,068 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 13:11:20,068 HSMSPort::OnDisconnect Reconnect
+2017-10-20 13:11:20,083 Reader#Run
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 94
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 105
+2017-10-20 13:11:21,128 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\SECSConnector.cs:行号 49
+2017-10-20 13:11:21,133 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 13:15:12,010 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 13:15:28,772 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadBody(Int32 aLength) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 72
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 109
+2017-10-20 13:16:09,852 HSMSPort::OnDisconnect Reconnect
+2017-10-20 13:16:09,893 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 13:16:18,449 SystemBytes: null, ERRCODE: T8TimeOut, ERRDESC: T8 TimeOut..
+2017-10-20 13:16:58,383 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2017-10-20 13:16:58,419 HSMSPort::OnDisconnect Reconnect
+2017-10-20 13:16:58,524 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。。 ---> System.Net.Sockets.SocketException: 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadLength(Byte[] bs) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 94
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 105
+2017-10-20 13:17:13,646 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\SECSConnector.cs:行号 49
+2017-10-20 13:17:13,695 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 13:50:49,682 Reader#Run
+System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryReader.Read(Byte[] buffer, Int32 index, Int32 count)
+   在 HSMSDriver.HSMSReader.ReadBody(Int32 aLength) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 72
+   在 HSMSDriver.HSMSReader.Run() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSReader.cs:行号 109
+2017-10-20 13:50:49,752 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Socket Error..
+2017-10-20 13:50:49,753 HSMSPort::OnDisconnect Reconnect
+2017-10-20 13:50:49,869 WriteReplyMessage
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BinaryWriter.Write(Byte[] buffer)
+   在 HSMSDriver.HSMSWriter.WriteReplyMessage(SECSMessage msg) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSWriter.cs:行号 186
+2017-10-20 13:50:49,950 Timer::StartTimer 
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 HSMSDriver.HSMSTimer.StartTimer(eTimeout e) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSTimer.cs:行号 218
+2017-10-20 13:50:50,028 Timer::StartTimer 
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 HSMSDriver.HSMSTimer.StartTimer(eTimeout e) 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\HSMSTimer.cs:行号 218
+2017-10-20 13:51:11,825 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\SECSConnector.cs:行号 49
+2017-10-20 13:51:11,912 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 13:51:18,029 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 C:\Users\39341\Desktop\HSMSDemo\HSMSDriver\SECSConnector.cs:行号 49
+2017-10-20 13:51:18,029 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2017-10-20 13:56:12,993 HSMSPort::OnDisconnect Reconnect
